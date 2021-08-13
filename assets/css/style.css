@@ -378,8 +378,7 @@ section {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 1000px) {
-    /* this will be applied on any screen smaller than 1000px */
+@media screen and (max-width: 1026px) {
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -404,7 +403,6 @@ section {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 769px) {
-    /* this will be applied on any screen between 768px and 575px */
     .about {
         flex-direction: column;
     }
@@ -415,7 +413,6 @@ section {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 576px) {
-    /* this will be applied on any screen smaller than 575px */
     .project-row {
         flex-direction: column;
     }
