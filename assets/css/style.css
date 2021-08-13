@@ -399,10 +399,6 @@ section {
   header nav ul li a {
       font-size: 20px;
   }
-  .resume {
-      text-align: center;
-      width: 80%;
-  }
   .section-title {
       width: 80%;
   }
@@ -411,15 +407,15 @@ section {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     /* this will be applied on any screen between 768px and 575px */
-  section {
-      padding: 30px 15px;
-  }
+    .section-title{
+        width: 60%;
+    }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     /* this will be applied on any screen smaller than 575px */
-  .section-title {
-      width: 80%;
-  }
+    .section-title{
+        width: 60%;
+    }
 }
