@@ -332,7 +332,6 @@ section {
 
 .info-column {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     flex: 3;
 }
@@ -380,42 +379,62 @@ section {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
-    /* this will be applied on any screen smaller than 980px */
-  header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
-  }
-  header h1 {
-      width: 100%;
-      text-align: center;
-  }
-  header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
-  }
-  header nav ul li a {
-      font-size: 20px;
-  }
-  .section-title {
-      width: 80%;
-  }
+@media screen and (max-width: 1000px) {
+    /* this will be applied on any screen smaller than 1000px */
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    .info-column {
+        flex-direction: column;
+    }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     /* this will be applied on any screen between 768px and 575px */
-    .section-title{
-        width: 60%;
+    .about {
+        flex-direction: column;
+    }
+    .intro-column {
+        padding-left: 20px;
     }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     /* this will be applied on any screen smaller than 575px */
-    .section-title{
-        width: 60%;
+    .project-row {
+        flex-direction: column;
+    }
+    .project-rowtwo {
+        flex-direction: column;
+    }
+    .project-semantic {   
+        margin-right: 0px;
+        margin-bottom: 8px;
+    }
+    .project-port {
+        margin-left: 0px;
+    }
+    .project-tba {
+        margin-right: 0px;
+        margin-bottom: 8px;
+    }
+    .project-tbd {
+        margin-left: 0px;
     }
 }
