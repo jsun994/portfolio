@@ -108,7 +108,6 @@ header nav ul li a:hover {
 section {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .section-title {
@@ -463,12 +462,12 @@ section {
 
 @media screen and (max-width: 323px) {
     .section-title {
-        font-size: 15px;
+        font-size: 13px;
     }
     .info-column h3 {
-        font-size: 15px;
+        font-size: 13px;
     }
     .intro-column {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
