@@ -442,7 +442,7 @@ section {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     header nav ul {
         flex-direction: column;
         margin: 0;
