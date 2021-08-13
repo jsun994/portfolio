@@ -404,7 +404,7 @@ section {
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     /* this will be applied on any screen between 768px and 575px */
     .about {
         flex-direction: column;
@@ -415,7 +415,7 @@ section {
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
     /* this will be applied on any screen smaller than 575px */
     .project-row {
         flex-direction: column;
@@ -442,7 +442,7 @@ section {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 429px) {
     header nav ul {
         flex-direction: column;
         margin: 0;
@@ -458,5 +458,17 @@ section {
         border-right: 2px solid;
         width: 100px;
         text-align: right;
+    }
+}
+
+@media screen and (max-width: 323px) {
+    .section-title {
+        font-size: 15px;
+    }
+    .info-column h3 {
+        font-size: 15px;
+    }
+    .intro-column {
+        font-size: 15px;
     }
 }
