@@ -1,16 +1,14 @@
-# Run Buddy, Inc.
+# Jay Sun
 
 ## Purpose
-A website that offers fitness training services. 
+A website that showcase my portfolio.
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+
 
 ## Contribution
 Made with ❤️ by Jay Sun
-
-### ©️2019 Run Buddy, Inc.
