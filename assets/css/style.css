@@ -78,9 +78,7 @@ header nav ul li a:hover {
     padding-right: 30px;
     background-image: url("../images/background.jpg");
     background-size: cover;
-    background-position: center;
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
     background-attachment: fixed;
     background-position: 80%;
@@ -103,12 +101,14 @@ header nav ul li a:hover {
 /*container*/
 #container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
 section {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .section-title {
@@ -128,7 +128,6 @@ section {
 
 /*about*/
 .about {
-    flex-wrap: wrap;
     display: flex;
     flex: 3;
     align-items: center;
@@ -163,7 +162,6 @@ section {
 /*work*/
 .projects {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     flex: 3;
 }
@@ -293,6 +291,15 @@ section {
     border-radius: 5px;
 }
 
+.project-nametop span {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.project-name span {
+    font-size: 15px;
+    font-weight: lighter;
+}
 .project-name {
     font-size: 25px;
     color: var(--secondary-color);
