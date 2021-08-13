@@ -1,7 +1,7 @@
-# Jay Sun
+# Jay Sun's Portfolio
 
 ## Purpose
-A website that showcase my portfolio.
+A website that showcase my project portfolio.
 
 ## Built With
 * HTML
@@ -11,4 +11,6 @@ A website that showcase my portfolio.
 https://jsun994.github.io/portfolio/
 
 ## Contribution
-Made with ❤️ by Jay Sun
+Made by Jay Sun
+
+![ScreenShot](https://github.com/jsun994/run-buddy/blob/main/index.html)
