@@ -8,7 +8,7 @@
     </head>
     <body>
 
-        <!--navigation-->
+        <!--navigation to sections of my porfolio page-->
         <header>
             <h1>
                 <a href="./index.html">Jay Sun</a>
@@ -31,25 +31,25 @@
             </nav>
         </header>
 
-        <!--background-->
+        <!--background with a subtitle-->
         <section class="background"> 
-
-            <div class="subtitle">
+            <article class="subtitle">
                 <h2>Enjoy!</h2>
-            </div>
-
+            </article>
         </section>
 
-        <!--container-->
-        <div id="container">
+        <!--container for flexboxes-->
+        <section id="container">
 
-            <!--about me-->
-            <section id="about-me" class="me">
+            <!--about me flexboxes-->
+            <section id="about-me">
                 <h2 class="section-title primary-border">About Me</h2>
                 
-                <div class="about">
+                <!--photo and intro flexboxes-->
+                <article class="about">
+
                     <div class="flex-photo">
-                        <img src="./assets/images/photo.jpg" alt=""/>
+                        <img src="./assets/images/photo.jpg" alt="my photo"/>
                     </div>
 
                     <div class="intro-column">
@@ -63,15 +63,17 @@
                             I am currently an Auditor, with experiences in Compliance Audits. I worked as a Tax Analyst Intern at Intuit, where I gained experience in Quality Assurance as well as Programming in Java.
                         </p>
                     </div>
-                </div>
+
+                </article>
             </section>
 
-            <!--work-->
+            <!--work flexboxes-->
             <section id="work">
                 <h2 class="section-title primary-border">My Work</h2>
                 
                 <div class="projects">
-                    
+
+                    <!--first project flexbox with clickable image-->
                     <a href="https://jsun994.github.io/run-buddy/"><article class="project-top">
                         <div class="project-bio">
                             <h3 class="project-nametop">Run-Buddy<br/><span>Coding Lessons</span></h3>
@@ -79,8 +81,8 @@
                     </article>
                     </a>   
                     
+                    <!--second row with two project flexboxes, clickable image-->
                     <article class="project-row">
-                        
                         <a href="https://github.com/jsun994/semantic-social-media"><article class="project-semantic"> 
                             <div class="project-bio">
                                 <h3 class="project-name">Semantic<br/><span>Semantic HTML</span></h3>
@@ -96,8 +98,8 @@
                         </a>
                     </article>
 
+                    <!--third row with two project flexboxes, clickable image-->
                     <article class="project-rowtwo">
-
                         <a href=""><article class="project-tba">
                             
                             <div class="project-bio">
@@ -113,22 +115,22 @@
                             </div>
                         </article>
                         </a>
-
                     </article>
                 </div>
             </section>
             
-            <!--contact me-->
+            <!--contact me flexboxes-->
             <section id="contact-me" class="contact">
                 <h2 class="section-title">Contact Me</h2>
-                
-                <div class="info-column">
+
+                <!--contact me flexboxes-->
+                <aside class="info-column">
                     <div class="flex-cell">
-                        <h3>C: (310) 560-1396</h3>
+                        <h3>C:(310) 560-1396</h3>
                     </div>
                     
                     <div class="flex-email">
-                        <h3>E: <a href="mailto:jaysun054@gmail.com">jaysun054@gmail.com</a></h3>
+                        <h3>E:<a href="mailto:jaysun054@gmail.com">jaysun054@gmail.com</a></h3>
                     </div>
     
                     <div class="flex-git">
@@ -138,19 +140,20 @@
                     <div class="flex-link">
                         <h3><a href="https://www.linkedin.com/in/jay-sun">LinkedIn</a></h3>
                     </div>
-                </div>
+                </aside>
             </section>
 
-            <!--resume-->
+            <!--resume flexboxes-->
             <section id="resume" class="resume">
                 <h2 class="section-title">Resume</h2>
-                <div class="resume-flex">
+
+                <aside class="resume-flex">
                     <div class="flex-resume">
                         <h3><a href="./resume.pdf">PDF</a></h3>
                     </div>
                     <div class="flex-filler"></div>
-                </div>
+                </aside>
             </section>
-        </div>
+        </section>
     <body>
 </html>

@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/*define color*/
 :root {
     --primary-color: rgb(250, 250, 250);
     --secondary-color: rgb(40, 40, 40);

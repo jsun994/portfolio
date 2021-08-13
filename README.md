@@ -8,7 +8,7 @@ A website that showcase my portfolio.
 * CSS
 
 ## Website
-
+https://jsun994.github.io/portfolio/
 
 ## Contribution
 Made with ❤️ by Jay Sun
