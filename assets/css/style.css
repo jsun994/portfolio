@@ -437,4 +437,26 @@ section {
     .project-tbd {
         margin-left: 0px;
     }
+    .background {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header nav ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .background {
+        background-size: contain;
+    }
+    .section-title {
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 20px;
+        border-right: 2px solid;
+        width: 100px;
+        text-align: right;
+    }
 }
