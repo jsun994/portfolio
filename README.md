@@ -13,4 +13,4 @@ https://jsun994.github.io/portfolio/
 ## Contribution
 Made by Jay Sun
 
-![ScreenShot](https://github.com/jsun994/run-buddy/blob/main/screenshot1.png)
+<img width="2560" alt="screenshot1" src="https://user-images.githubusercontent.com/87501176/129422066-65f9aae2-95fc-401e-92e0-babe3d566fc5.png">
