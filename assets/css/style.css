@@ -32,6 +32,11 @@ header a {
 }
 
 /*fix link color*/
+
+header h1 a:link{
+    color: var(--secondary-color);
+}
+
 header h1 a:active {
     color: var(--secondary-color);
 }
