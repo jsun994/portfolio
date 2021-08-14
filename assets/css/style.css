@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+/*to prevent fixed header cutting off content*/
+html {
+    scroll-padding-top: 85px;
+}
+
 /*define color*/
 :root {
     --primary-color: rgb(250, 250, 250);
@@ -23,7 +28,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 9999;
+    z-index: 100;
 }
 
 /*no underline*/
@@ -390,6 +395,9 @@ section {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 1026px) {
+    html {
+        scroll-padding-top: 140px;
+    }
     header {
         justify-content: center;
     }
@@ -424,6 +432,9 @@ section {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 576px) {
+    html {
+        scroll-padding-top: 230px;
+    }
     header nav ul li {
         padding-bottom: 15px;
     }
