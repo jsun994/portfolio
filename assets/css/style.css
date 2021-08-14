@@ -345,27 +345,11 @@ section {
 
 .info-column {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex: 3;
 }
 
-.flex-cell {
-    flex: 1;
-    margin: 15px;
-}
-
-.flex-email {
-    flex: 1;
-    margin: 15px;
-}
-
-.flex-git {
-    flex: 1;
-    margin: 15px;
-}
-
-.flex-link {
-    flex: 1;
+.flex-contact {
     margin: 15px;
 }
 
