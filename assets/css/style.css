@@ -181,7 +181,7 @@ section {
 /*work*/
 .projects {
     display: flex;
-    /*for bigger first project*/
+    /*to make first project bigger*/
     flex-direction: column;
     flex: 3;
 }
@@ -231,6 +231,7 @@ section {
 
 .project-row {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 95%;
     margin-left: auto;
@@ -256,19 +257,6 @@ section {
 
 .projects a:active {
     text-decoration: none;
-}
-
-.project-rowtwo {
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-}
-
-.project-rowtwo a{
-    flex: 1;
 }
 
 /*highlight hovered image*/
@@ -439,9 +427,6 @@ section {
         padding: 0px;
     }
     .project-row {
-        flex-direction: column;
-    }
-    .project-rowtwo {
         flex-direction: column;
     }
     .project-semantic {   
