@@ -17,7 +17,7 @@ My work contains titled images that are clickable, which takes the user to my ap
 First project image is larger than the rest.
 This website is built to be responsive on various screen sizes.
 
-![](images/screenshot1.png)
-![](images/screenshot2.png)
-![](images/screenshot3.png)
-![](images/screenshot4.png)
+![port1](assets/images/screenshot1.png)
+![port2](assets/images/screenshot2.png)
+![port3](assets/images/screenshot3.png)
+![port4](assets/images/screenshot4.png)
