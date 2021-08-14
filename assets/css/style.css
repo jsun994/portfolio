@@ -93,9 +93,10 @@ header nav ul li a:hover {
     padding-top: 60px;
     padding-bottom: 30px;
     padding-right: 30px;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background2.jpeg");
     display: flex;
     justify-content: flex-end;
+    background-size: contain;
     background-attachment: fixed;
 }
 
@@ -409,7 +410,7 @@ section {
     .intro-column {
         padding-left: 100px;
         padding-right: 100px;
-        font-size: 20px; 
+        font-size: 20px;
     }
     .flex-photo img {
         margin-top: 20px;
@@ -418,7 +419,6 @@ section {
         text-align: center;
     }
     .background {
-        background-size: contain;
         flex-direction: row;
     }
 }
