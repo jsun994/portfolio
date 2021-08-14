@@ -361,12 +361,12 @@ section {
     margin: 15px;
 }
 
+/*resume*/
 .resume-flex{
     display: flex;
     flex: 3;
 }
 
-/*resume*/
 .resume h3 {
     color: var(--secondary-color);
     font-size: 20px;
