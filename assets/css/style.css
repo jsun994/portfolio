@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /*to prevent fixed header cutting off content*/
 html {
     scroll-padding-top: 85px;
@@ -117,6 +121,7 @@ header nav ul li a:hover {
     flex-direction: column;
 }
 
+/*apply to section*/
 section {
     display: flex;
     flex-direction: row;
@@ -128,10 +133,12 @@ section {
     font-size: 34px;
     border-right: 2px solid;
     width: 144px;
+    /*title smaller than body content*/
     flex: 1;
     text-align: right;
 }
 
+/*to extend right border*/
 .primary-border {
     padding-bottom: 500px;
     padding-top: 10px;
@@ -231,7 +238,7 @@ section {
 }
 
 .project-row a{
-    flex-grow: 1;
+    flex: 1;
 }
 
 .projects a:link {
@@ -260,9 +267,10 @@ section {
 }
 
 .project-rowtwo a{
-    flex-grow: 1;
+    flex: 1;
 }
 
+/*highlight hovered image*/
 .project-top:hover {
     -webkit-filter: saturate(200%);
     filter: saturate(200%);
