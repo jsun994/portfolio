@@ -192,7 +192,7 @@ section {
 }
 
 .project-port {
-    background-image: url("../images/project2.png");
+    background-image: url("../images/project3.png");
     background-size: cover;
     border: 4px solid var(--label-color);
     margin-left: 8px;
@@ -200,7 +200,7 @@ section {
 }
 
 .project-tba {
-    background-image: url("../images/programming.png");
+    background-image: url("../images/project4.png");
     background-size: cover;
     border: 4px solid var(--label-color);
     margin-right: 8px;
