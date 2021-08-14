@@ -26,10 +26,12 @@ header {
     z-index: 9999;
 }
 
+/*no underline*/
 header a {
     text-decoration: none;
 }
 
+/*fix link color*/
 header h1 a:active {
     color: var(--secondary-color);
 }
@@ -46,6 +48,7 @@ header h1 {
     padding-right: 20px;
 }
 
+/*centering*/
 header nav {
     margin: auto;
     margin-right: 5px;
@@ -67,6 +70,7 @@ header nav ul li a {
     color: var(--primary-color);
 }
 
+/*hover link color*/
 header nav ul li a:hover {
     background: var(--tertiary-color);
     color: var(--secondary-color);
@@ -458,7 +462,7 @@ section {
         font-size: 20px;
         border-right: 2px solid;
         width: 100px;
-        text-align: right;
+        text-align: center;
     }
 }
 
