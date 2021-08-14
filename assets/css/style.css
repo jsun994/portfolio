@@ -40,7 +40,7 @@ header h1 {
 
 header nav {
     margin: auto;
-    margin-right: 0;
+    margin-right: 5px;
 }
 
 header nav ul {
