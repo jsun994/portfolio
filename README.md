@@ -16,3 +16,8 @@ There are links in the navigation, and when clicked, it scrolls to the correspon
 My work contains titled images that are clickable, which takes the user to my applications.
 First project image is larger than the rest.
 This website is built to be responsive on various screen sizes.
+
+![](images/screenshot1.png)
+![](images/screenshot2.png)
+![](images/screenshot3.png)
+![](images/screenshot4.png)
