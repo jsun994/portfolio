@@ -397,8 +397,15 @@ section {
     }
 }
 
+@media screen and (max-width: 803px) {
+    .intro-column {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 18px;
+    }
+}
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 583px) {
     html {
         scroll-padding-top: 230px;
     }
