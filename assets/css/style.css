@@ -332,17 +332,16 @@ section {
 .info-column {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex: 3;
-}
-
-.flex-contact {
-    margin: 15px;
 }
 
 /*resume*/
 .resume-flex{
     display: flex;
     flex: 3;
+    justify-content: center;
+    align-items: center;
 }
 
 .resume h3 {
@@ -354,11 +353,6 @@ section {
 
 .resume h3 a:link, .resume h3 a:visited, .resume h3 a:active {
     color: var(--secondary-color);
-}
-
-.flex-resume {
-    flex: 1;
-    margin: 15px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
