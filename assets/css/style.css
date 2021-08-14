@@ -157,7 +157,7 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 70%;
 }
 
 .intro-column {
@@ -418,6 +418,9 @@ section {
     .info-column {
         flex-direction: column;
     }
+    .flex-photo img {
+        width: 90%;
+    }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -427,6 +430,9 @@ section {
     }
     .intro-column {
         padding-left: 20px;
+    }
+    .flex-photo img {
+        margin-top: 20px;
     }
 }
 
@@ -463,6 +469,10 @@ section {
     .project-tbd {
         margin-left: 0px;
     }
+    .flex-photo img {
+        margin-top: 0px;
+        width: 100%;
+    }
     /*display column for sections including section titles*/
     section {
         flex-direction: column;
@@ -495,5 +505,8 @@ section {
     }
     .intro-column {
         font-size: 13px;
+    }
+    .flex-photo img {
+        width: 90%;
     }
 }
