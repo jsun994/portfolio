@@ -185,14 +185,14 @@ section {
 }
 
 .project-top {
-    background-image: url("../images/ptblog.png");
+    
     background-size: cover;
     border: 4px solid var(--label-color);
     margin-bottom: 15px;
 }
 
 .project-semantic {   
-    background-image: url("../images/e-solution.png");
+    
     background-size: cover;
     border: 4px solid var(--label-color);
     margin-right: 8px;
