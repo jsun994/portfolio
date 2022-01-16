@@ -199,7 +199,7 @@ section {
 }
 
 .project-port {
-    background-image: url("../images/project03.png");
+    background-image: url("../images/mov.png");
     background-size: cover;
     border: 4px solid var(--label-color);
     margin-left: 8px;
